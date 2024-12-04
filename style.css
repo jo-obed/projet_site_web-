@@ -73,9 +73,35 @@ body {
 .p_center {
     text-align: center;
     padding-top: 80px;
+    padding-bottom: 70px;
     font-size: 20px;
 }
 
 .p_center a {
     color: rgb(14, 114, 164);
+}
+
+.part_mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+.p_mobile {
+    text-align: left;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.p_mobile a {
+    color: rgb(14, 114, 164);
+}
+
+.p_mobile h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.p_mobile p {
+    font-weight: 600;
+    font-size: 20px;
 }
