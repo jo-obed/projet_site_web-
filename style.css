@@ -69,3 +69,13 @@ body {
     font-weight: bold;
     margin-right: 15px;
 }
+
+.p_center {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.p_center a {
+    color: rgb(14, 114, 164);
+}
