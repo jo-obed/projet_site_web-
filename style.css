@@ -192,3 +192,39 @@ body {
     margin-right: 10px;
     margin-top: 40px;
 }
+
+.footer_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_rensigement {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10%;
+}
+
+.footer_rensigement li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer_rensigement a {
+    text-decoration: none;
+    color: rgba(20, 19, 19, 0.282);
+}
+
+.footer_rensigement a:hover {
+    color: rgb(45, 45, 178);
+}
+
+.footer_logo {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.footer_rensigement p {
+    font-weight: 600;
+}
