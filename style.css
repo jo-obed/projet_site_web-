@@ -7,6 +7,11 @@
     font-weight: 600;
 }
 
+body {
+    background-color: #eee6da;
+    margin-right: 50px;
+}
+
 .nav_marg {
     margin: 15px;
 }
@@ -16,6 +21,10 @@
     flex-direction: row;
     font-weight: 600;
     margin-left: 30px;
+}
+
+.main_image {
+    padding-top: 70px;
 }
 
 .button {
@@ -30,6 +39,7 @@
 .main_contenu h1 {
     font-weight: 600;
     font-size: 60px;
+    margin-left: 35px;
 }
 
 .main_contenu ol {
