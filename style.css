@@ -153,3 +153,35 @@ body {
     text-decoration: none;
     color: white;
 }
+
+.changer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.changer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 18px;
+}
+
+.changer p {
+    font-weight: 600;
+}
+
+.footer_icones img {
+    width: 18px;
+    margin-right: 25px;
+    position: relative;
+    left: 300%;
+    top: 18px;
+
+}
+
+.footer_image {
+    display: flex;
+    flex-direction: row;
+}
