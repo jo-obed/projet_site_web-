@@ -5,6 +5,7 @@
     margin: 20px;
     padding-left: 20px;
     font-weight: 600;
+    font-size: 70px;
 }
 
 .nav_marg {
@@ -20,10 +21,11 @@
 
 .button {
     text-decoration: none;
-    background-color: rgb(95, 34, 152);
-    padding: 15px;
-    margin-left: 20px;
+    background-color: #6a3b77;
+    padding: 18px;
+    margin-left: 42px;
     color: white;
+    border-radius: 5px;
 }
 
 .main_contenu h1 {
@@ -33,4 +35,28 @@
 
 .main_contenu ol {
     list-style: circle;
+}
+
+.main_ol li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main_ol li .cercle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6a3b77;
+    /* Couleur violette */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
 }
