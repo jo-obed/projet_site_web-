@@ -105,3 +105,51 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
+
+.main_color {
+    margin-top: 70px;
+    background-color: #4b2057;
+    /* arc arrondi */
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    padding: 80px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-right: 5px;
+}
+
+.main_color h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.bt1 a:hover {
+    background-color: #f5f2ed;
+
+}
+
+.main_button {
+    text-decoration: none;
+    text-align: center;
+}
+
+.main_button .bt1 {
+    margin: 5px;
+    text-decoration: none;
+    color: #4b2057;
+    font-weight: 600;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.main_button .bt2 {
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
